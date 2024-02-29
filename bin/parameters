@@ -1,0 +1,41 @@
+<POPULATION_PARAMETERS>
+    <populationSize>           100
+    <seed>                     0
+    <weightRange>              1.0
+    <c1Disjoint>               1.0
+    <c3WeightDifference>       0.4
+    <initialDistanceThreshold> 4.0
+    <distanceThresholdShift>   0.01
+    <sexualReproductionRate>   0.5
+    <weightMutationRate>       0.94
+    <weightDeviation>          0.25
+    <interspeciesMatingRate>   0.001
+    <geneDisablingRatio>       0.75
+    <linkMutationRate>         0.03
+    <nodeMutationRate>         0.01
+    <targetSpeciesCount>       5
+    <eligibilityRatio>         0.5
+    <minimumLifetime>          2
+    <replBeforeReorganization> 5
+</POPULATION_PARAMETERS>
+
+<NEURAL_NET_PARAMETERS>
+    <testGridLevel>        3
+    <maxQuadTreeLevel>     -1
+    <minQuadTreeLevel>     0
+    <bandPruningThreshold> 0.3
+    <varianceThreshold>    0.03
+    <divisionThreshold>    0.03
+    <searchIterations>     -1
+</NEURAL_NET_PARAMETERS>
+
+<NOVELTY_SEARCH_PARAMETERS>
+    <doNoveltySearch>    0
+    <noveltyThreshold>   25
+    <referenceOrganisms> 16
+</NOVELTY_SEARCH_PARAMETERS>
+
+<STAGE_PARAMETERS>
+    <file> stages/complex
+    <draw> 1
+</STAGE_PARAMETERS>
